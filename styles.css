@@ -1,0 +1,33 @@
+:root{
+
+--color-barra-lateral: rgb(255,255,255);
+
+--color-texto: rgb(0,0,0);
+--color-texto-menu: rgb(134,136,144);
+
+--color-boton: rgb(0, 0, 0);
+--color-boton-texto: rgb(255,255,255);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+   border: 5px solid red;
+    height: 100vh;
+   width: 100%;
+background-color: darkcyan;
+}
+.barra-lateral{
+    border: 2px solid chartreuse;
+    width: 250px;
+    height: 100%;
+   padding: 20px 15px;
+   background-color: var(--color-barra-lateral);
+
+}
+.barra-lateral.nombre-pagina   
