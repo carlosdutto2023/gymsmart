@@ -28,6 +28,9 @@ background-color: darkcyan;
     height: 100%;
    padding: 20px 15px;
    background-color: var(--color-barra-lateral);
+}
+   .mini-barra-lateral{
+    width : 80px;
 
 }
 .barra-lateral.nombre-pagina   {
@@ -41,6 +44,7 @@ background-color: darkcyan;
     border: 2px solid slateblue;
     min-width: 50px;
     font-size: 40px;
+    cursor :pointer;
 }
 .barra-lateral.nombre-pagina span{
 
