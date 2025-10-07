@@ -1,26 +1,33 @@
+
+</html>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gym Smart 5</title>
+    <title>Menú Desplegable</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<link rel="stylesheet" href="styles.css">
-
 <body>
-    
-<div class="barra-lateral">
-   <div class="nombre-pagina">
-     <ion-icon id="pesa" name="barbell-outline"></ion-icon>
-     <span>Gym Smart</span>
-   </div>
+    <div class="menu-container">
+        <div class="menu-icon" id="menuIcon">
+            &#9776; <!-- Icono de hamburguesa Unicode -->
+        </div>
+        <div class="sidebar" id="sidebar">
+            <a href="pagina1.html">Enlace a Página 1</a>
+            <a href="pagina2.html">Enlace a Página 2</a>
+            <a href="pagina3.html">Enlace a Página 3</a>
+            <a href="https://www.google.com" target="_blank">Google</a>
+            <a href="https://www.openai.com" target="_blank">OpenAI</a>
+        </div>
+    </div>
 
+    <div class="content">
+        <h1>Contenido Principal de la Página</h1>
+        <p>Este es el contenido de tu página web. Puedes añadir más elementos aquí.</p>
+    </div>
 
-</div>
-
-
-  <script src="script.js"></script>  
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
